@@ -6,7 +6,7 @@ const ProductDetails = ({params}: {params:{category: string, id: string}}) => {
     <div>
       <h1>Product Details</h1>
       <p>Product Category: <span className='capitalize'>{category}</span></p>
-      <p><span className='capitalize'>{id}</span></p>
+      <p><span className='capitalize'>{category} Name : </span> <span className='capitalize'>{id}</span></p>
     </div>
   )
 }
