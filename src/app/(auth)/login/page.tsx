@@ -2,7 +2,9 @@ import React from 'react'
 
 const LoginPage = () => {
   return (
-    <div>LoginPage</div>
+    <div className="flex items-center justify-center min-h-screen">
+     <p className="text-5xl font-bold">Login Page</p>
+   </div>
   )
 }
 
